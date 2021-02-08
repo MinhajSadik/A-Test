@@ -47,7 +47,7 @@ section {
     margin-bottom: 30px;
 }
 
-form {
+.form {
     width: 90%;
     max-width: 400px;
     margin: 20px auto;
@@ -150,4 +150,3 @@ input {
 .box{
     margin: 10px;
 }
-

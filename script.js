@@ -1,5 +1,6 @@
 const searchItem = () => {
-    let searchRecipe = document.getElementById('search-item').value;
+    const searchRecipe = document.getElementById('search-item').value;
+    console.log(searchRecipe);
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${searchRecipe}`)
         .then(res => res.json())
         .then(data => displayItemName(data.meals))
