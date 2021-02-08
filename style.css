@@ -57,11 +57,11 @@ section {
 
 input {
     width: 87.1%;
-    padding: 10px;
+    padding-left: 10px;
     border-radius: 4px;
     border: none;
     outline: none;
-    font-size: 2rem;
+    font-size: 20px;
     background-color: rgb(223, 223, 223);
     display: inline-block;
 }
@@ -149,4 +149,8 @@ input {
 
 .box{
     margin: 10px;
+}
+
+.navigation li a{
+    font-size: 1.4rem;
 }
